@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/torre-project/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/torre-project/static/js/main.0301c87e.chunk.js",
-    "main.js.map": "/torre-project/static/js/main.0301c87e.chunk.js.map",
-    "runtime-main.js": "/torre-project/static/js/runtime-main.7ccf66ef.js",
-    "runtime-main.js.map": "/torre-project/static/js/runtime-main.7ccf66ef.js.map",
-    "static/js/2.b93f25f8.chunk.js": "/torre-project/static/js/2.b93f25f8.chunk.js",
-    "static/js/2.b93f25f8.chunk.js.map": "/torre-project/static/js/2.b93f25f8.chunk.js.map",
-    "static/js/3.fb1058d0.chunk.js": "/torre-project/static/js/3.fb1058d0.chunk.js",
-    "static/js/3.fb1058d0.chunk.js.map": "/torre-project/static/js/3.fb1058d0.chunk.js.map",
+    "main.css": "/torre-project/static/css/main.707d73bd.chunk.css",
+    "main.js": "/torre-project/static/js/main.7b9f3312.chunk.js",
+    "main.js.map": "/torre-project/static/js/main.7b9f3312.chunk.js.map",
+    "runtime-main.js": "/torre-project/static/js/runtime-main.adc59106.js",
+    "runtime-main.js.map": "/torre-project/static/js/runtime-main.adc59106.js.map",
+    "static/js/2.fdcc91d2.chunk.js": "/torre-project/static/js/2.fdcc91d2.chunk.js",
+    "static/js/2.fdcc91d2.chunk.js.map": "/torre-project/static/js/2.fdcc91d2.chunk.js.map",
+    "static/js/3.0854df52.chunk.js": "/torre-project/static/js/3.0854df52.chunk.js",
+    "static/js/3.0854df52.chunk.js.map": "/torre-project/static/js/3.0854df52.chunk.js.map",
     "index.html": "/torre-project/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/torre-project/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.b93f25f8.chunk.js.LICENSE.txt": "/torre-project/static/js/2.b93f25f8.chunk.js.LICENSE.txt",
+    "static/css/main.707d73bd.chunk.css.map": "/torre-project/static/css/main.707d73bd.chunk.css.map",
+    "static/js/2.fdcc91d2.chunk.js.LICENSE.txt": "/torre-project/static/js/2.fdcc91d2.chunk.js.LICENSE.txt",
     "static/media/logo.103b5fa1.svg": "/torre-project/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ccf66ef.js",
-    "static/js/2.b93f25f8.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.0301c87e.chunk.js"
+    "static/js/runtime-main.adc59106.js",
+    "static/js/2.fdcc91d2.chunk.js",
+    "static/css/main.707d73bd.chunk.css",
+    "static/js/main.7b9f3312.chunk.js"
   ]
 }
