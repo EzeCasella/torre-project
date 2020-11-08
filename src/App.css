@@ -82,6 +82,9 @@ p {
   justify-content: space-between;
   font-size: 16px;
 }
+.Card-header {
+  margin-bottom: 20px;
+}
 
 .Opportunities-container {
   width: 100%;
@@ -108,7 +111,6 @@ p {
   border-radius: 40px;
   border: 2px solid #CDDC39;
   margin-right: 20px;
-  margin-bottom: 20px;
 }
 
 .Opportunity-type-tag {
@@ -117,6 +119,16 @@ p {
   color: #282c34;
   font-weight: 600;
   padding: 2px 7px;
+}
+
+.Navigator-item {
+  margin: 5px;
+  font-weight: 600;
+  color: #CDDC39;
+}
+
+.Navigator-arrow:hover {
+  cursor: pointer;
 }
 
 .Members {

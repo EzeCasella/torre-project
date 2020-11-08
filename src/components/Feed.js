@@ -7,9 +7,26 @@ import OpportunityCard from './OpportunityCard'
 function Feed() {
 
     const [opportunities, setOpportunities] = useState([]);
+    const [currentPage, setCurrentPage] = useState(0);
+    const [totalPages, setTotalPages] = useState(0);
 
     const processResponse = (resp) => {
-        setOpportunities(resp);
+        setOpportunities(resp.opportunities);
+        setTotalPages(resp.totalPages)
+    }
+
+    const navigateToStart = () => getOpportunitiesByPage(0)   
+    const navigateToEnd = () => getOpportunitiesByPage(totalPages)   
+
+    const navigateBackwards = () => currentPage > 0 && getOpportunitiesByPage(currentPage-1)
+    const navigateForward = () => currentPage < totalPages && getOpportunitiesByPage(currentPage+1)   
+    
+    const getOpportunitiesByPage = (page) => {
+        Api.getOpportunities(page)
+                .then(data => {
+                    processResponse(data)
+                    setCurrentPage(page)
+                })
     }
 
     useEffect(()=>{
@@ -34,7 +51,36 @@ function Feed() {
                     )
                 )}
             </div>
-            
+            <div className="flex-row">
+                <p 
+                    className="Navigator-item Navigator-arrow"
+                    onClick={navigateToStart}>
+                        {"<<"}
+                </p>
+                
+                <p 
+                    className="Navigator-item Navigator-arrow" 
+                    onClick={navigateBackwards}>
+                        {"<"}
+                </p>
+                
+                <p 
+                    className="Navigator-item">
+                    {currentPage+1}...{totalPages+1}
+                </p>
+                
+                <p 
+                    className="Navigator-item Navigator-arrow" 
+                    onClick={navigateForward}>
+                        {">"}
+                </p>
+                
+                <p 
+                    className="Navigator-item Navigator-arrow"
+                    onClick={navigateToEnd}>
+                        {">>"}
+                </p>
+            </div>
         </div>
     )
 }
