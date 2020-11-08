@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/torre-project/static/css/main.cd2133e7.chunk.css",
-    "main.js": "/torre-project/static/js/main.0d9721f7.chunk.js",
-    "main.js.map": "/torre-project/static/js/main.0d9721f7.chunk.js.map",
+    "main.css": "/torre-project/static/css/main.0b3fe9be.chunk.css",
+    "main.js": "/torre-project/static/js/main.9983f015.chunk.js",
+    "main.js.map": "/torre-project/static/js/main.9983f015.chunk.js.map",
     "runtime-main.js": "/torre-project/static/js/runtime-main.adc59106.js",
     "runtime-main.js.map": "/torre-project/static/js/runtime-main.adc59106.js.map",
     "static/js/2.f3ac0750.chunk.js": "/torre-project/static/js/2.f3ac0750.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0854df52.chunk.js": "/torre-project/static/js/3.0854df52.chunk.js",
     "static/js/3.0854df52.chunk.js.map": "/torre-project/static/js/3.0854df52.chunk.js.map",
     "index.html": "/torre-project/index.html",
-    "static/css/main.cd2133e7.chunk.css.map": "/torre-project/static/css/main.cd2133e7.chunk.css.map",
+    "static/css/main.0b3fe9be.chunk.css.map": "/torre-project/static/css/main.0b3fe9be.chunk.css.map",
     "static/js/2.f3ac0750.chunk.js.LICENSE.txt": "/torre-project/static/js/2.f3ac0750.chunk.js.LICENSE.txt",
     "static/media/default-profile-picture.440c7fc4.png": "/torre-project/static/media/default-profile-picture.440c7fc4.png",
     "static/media/logo.103b5fa1.svg": "/torre-project/static/media/logo.103b5fa1.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.adc59106.js",
     "static/js/2.f3ac0750.chunk.js",
-    "static/css/main.cd2133e7.chunk.css",
-    "static/js/main.0d9721f7.chunk.js"
+    "static/css/main.0b3fe9be.chunk.css",
+    "static/js/main.9983f015.chunk.js"
   ]
 }
