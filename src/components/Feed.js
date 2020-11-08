@@ -51,7 +51,7 @@ function Feed() {
                     )
                 )}
             </div>
-            <div className="flex-row">
+            <div className="flex-row Pager">
                 <p 
                     className="Navigator-item Navigator-arrow"
                     onClick={navigateToStart}>

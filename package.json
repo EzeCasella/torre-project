@@ -2,7 +2,7 @@
   "name": "torre-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://EzeCasella.github.io/torre-project",
+  "homepage": "https://ezecasella.github.io/torre-project/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",

@@ -13,14 +13,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Feed />
-          </Route>
-          <Route path="/search">
-            <SearchPage />
-          </Route>
-        </Switch>
+        <Route path="/">
+          <Feed />
+        </Route>
       </Router>
     </div>
       
