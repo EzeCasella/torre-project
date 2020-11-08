@@ -18,7 +18,7 @@ function SearchBar() {
             <form onSubmit={search} method="get">
                 <input 
                     type="text"
-                    placeholder="Enter your search"
+                    placeholder="Username"
                     onChange={handleChange}
                     value={query}
                 />

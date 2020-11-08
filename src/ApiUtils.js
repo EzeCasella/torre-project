@@ -10,8 +10,8 @@ class Api {
         fetch(BASE_URL+ url, {method: 'POST'}).then(response => response.json())
 
     static getOpportunities = () => 
-        fetch(BASE_URL + SEARCH_URL+"opportunities/_search/?offset=0&size=5",{method:'POST'})
-        .then(response => response.json())
+        fetch(BASE_URL + SEARCH_URL+"opportunities/_search/?offset=0&size=9",{method:'POST'})
+        .then(response => response.json()).then(resp => resp.results)
     
 }
 

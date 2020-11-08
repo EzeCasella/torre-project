@@ -1,19 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-import SearchBar from './components/SearchBar'
+
+// React router
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
+// Pages
+import SearchPage from './components/SearchPage'
 import Feed from './components/Feed'
 import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-        <Header />
-      <div className="App-body">
-        {/* <SearchBar /> */}
-        <Feed />
-      </div>
-      
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Feed />
+          </Route>
+          <Route path="/search">
+            <SearchPage />
+          </Route>
+        </Switch>
+      </Router>
     </div>
+      
+    
   )
 }
 

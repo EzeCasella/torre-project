@@ -1,13 +1,15 @@
 import { useEffect, useState} from 'react'
-
 import Api from '../ApiUtils'
+
+import Header from './Header'
+import OpportunityCard from './OpportunityCard'
 
 function Feed() {
 
-    const [names, setNames] = useState([]);
+    const [opportunities, setOpportunities] = useState([]);
 
     const processResponse = (resp) => {
-        setNames(resp.results);
+        setOpportunities(resp);
     }
 
     useEffect(()=>{
@@ -23,12 +25,16 @@ function Feed() {
     },[])
 
     return (
-        <div>
-            {names.map((name)=>
-                (
-                    <h4>{name.objective}</h4>
-                )
-            )}
+        <div className="App-body">
+            <Header/>
+            <div className="Opportunities-container">
+                {opportunities.map((opportunity)=>
+                    (
+                        <OpportunityCard key={opportunity.id} opportunity={opportunity} />
+                    )
+                )}
+            </div>
+            
         </div>
     )
 }

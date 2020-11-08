@@ -1,8 +1,9 @@
 
 function Header() {
     return (
-        <header>
+        <header className="App-header">
             <h1>Opportunities Feed</h1>
+            <div className="Green-bar"></div>
         </header>
     )
 }
