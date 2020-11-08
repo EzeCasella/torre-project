@@ -1,3 +1,9 @@
+/**
+ * Intended to be used in the future
+ * 
+ * 
+ */
+
 import { useState } from "react"
 
 function SearchBar() {

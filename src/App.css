@@ -147,7 +147,7 @@ p {
 }
 
 .Navigator-item {
-  margin: 5px;
+  margin: 15px;
   font-weight: 600;
   color: #CDDC39;
 }
@@ -158,6 +158,7 @@ p {
 
 .Pager {
   margin: 20px;
+  font-size: x-large;
 }
 
 /* Taken from https://www.w3schools.com/ */
